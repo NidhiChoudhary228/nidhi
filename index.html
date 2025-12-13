@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link href="https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        .header{
+            position: sticky;
+            top: 0px;
+            background-color: rgb(1, 1, 37);
+            color: white;
+            height: 80px;
+        }
+        #headerheading{
+            width: fit-content;
+            height: fit-content;
+            font-size: 33px;
+            margin: 12px -20px 4px 4px;
+            /*background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;*/
+        }
+        nav{
+             display: flex;
+        }
+        nav ul{
+            list-style: none;
+            display: flex;
+            margin-left: 790px;
+            margin-top: -13px;
+        }
+        ul a{
+            text-decoration: none;
+        }
+        ul h1{
+            text-decoration: none;
+            margin: 30px;
+            color: white;
+        }
+        .section1{
+            margin-top: 0px;
+            height: 620px;
+            background: linear-gradient(45deg,rgb(5, 5, 94),rgb(3, 3, 74),rgb(12, 12, 51));
+        }    
+        .section1 div{
+            padding: 50px;
+            animation: section1-h1 5s ease-in-out 1s 1;
+        }
+        @keyframes section1-h1{
+            25%{
+                padding-bottom:80px;
+            }
+        }
+        .section1 h1 {
+            margin-left: 100px;
+            font-size: 70px;
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .section1 p{
+            margin-left: 320px;
+            width: 600px;
+            color: white;
+            font-size: 22px;
+        }
+        .section1 div button{
+            background-color: rgb(167, 225, 248);
+            border-radius: 30px;
+            margin-left: 40%;
+            font-size: 20px;
+            font-weight: bold;
+            height: 50px;
+            width: 200px;
+        }
+        .section3{
+            display: flex;
+            background-color: rgb(1, 1, 37);
+            color: white;
+            height: 140px;
+            margin-top: -32px;
+            padding-left: 35%;
+            text-decoration: solid;
+            font-size: x-large;
+        }
+        .section2{
+            margin-top: 0px;
+            background-color: rgb(1, 1, 37);
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+        }
+        .section2 i{
+           margin: 15px 15px 15px 15px;
+           font-size: 40px;
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .section2 p{
+           margin: 15px 15px 15px 15px;
+           font-size: 20px;
+        }
+        .section2 h1{
+           margin: 15px 15px 15px 15px;
+        }
+        .section2 div button{ 
+            /*background-color: rgb(167, 225, 248);*/
+            background: linear-gradient(100deg,rgb(237, 133, 178),rgb(10, 176, 247),rgb(237, 133, 178));
+            border-radius: 30px;
+            margin-left: 16px;
+            font-size: 25px;
+            text-decoration: solid;
+            height: 40px;
+            width: 150px;
+        }    
+        .course{
+            margin: 35px 30px 35px 40px;
+            margin-left: 40px;
+            margin-right: 40px;
+            padding: 6px;
+            height: 310px;
+            width: 350px;
+            background-color: rgb(51, 51, 54);
+            /*background:linear-gradient(45deg,rgb(2, 2, 105),white,rgb(2, 2, 105));*/
+             /*background: linear-gradient(45deg,rgb(5, 5, 94),rgb(3, 3, 74),rgb(12, 12, 51));*/
+            border-radius: 30px;
+            color: white;
+        }
+        .course:hover{
+            height: 320px;
+            width: 360px;
+            background-color: rgb(5, 5, 82);
+            color: white;
+        }
+        .section2 div button:hover{
+            background-color: rgb(167, 225, 248);
+        }
+        .section4{
+            display: flex;
+            background-color: black;
+        }
+        .section4 img{
+            border: 3px solid white;
+           height: 380px;
+           width: 500px;
+           border-radius: 45px;
+           margin-top: 20px;
+           margin-left: 70px;
+           margin-bottom: 20px;
+
+        }
+        .div2{
+            display: flex;
+            margin-left: 30px;
+            font-size: 30px;
+            color: white;
+        }
+        .div3{
+            margin-left: 12px;
+            text-decoration: solid; 
+            font-weight: bolder;
+            width: 650px;  
+            color: white;  
+            margin-left: 30px;   
+        }
+        footer{
+            display: flex;
+            background-color: rgb(41, 40, 40);
+            color: white;
+        }
+        .footer1{
+            width: 600px;
+        }
+        .footer1 p{
+            font-size: 20px;
+        }
+        #a{
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        #b{
+            margin-left: 15px;
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        #c{
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        #d{
+            margin-left: 15px;
+            background: linear-gradient(45deg,rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127),rgb(10, 176, 247),rgb(237, 44, 127));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        @media(max-width: 478px){
+            .header{
+                display: block;
+                width: fit-content;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <h1 id="headerheading";padding-left: 15px; font-size: 35px; padding-bottom: 30px; margin-left: 20px;">Nidhi</h1>
+            <ul>
+                <li><a href=""><h1>link</h1></a></li>
+                <li><a href=""><h1>about</h1></a></li>
+                <li><a href=""><h1>review</h1></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section class="section1">
+        <div>
+             <h1>Master Programing With Nidhi</h1>
+             <p>Learn in-demand tech skills with our comprehensive courses. All courses are completely free and taught by industry expert Nidhi.</p>
+             <button>Explore Courses</button>
+        </div>
+    </section>
+    <section class="section3">
+        <h1 id="a">My Top</h1><h1 id="b">Courses</h1>
+    </section>
+    <section class="section2">
+            <div class="course"><i class="fa-brands fa-python"></i><h1>Python Programming</h1><p>
+Master Python from basics to advanced concepts including OOP, dataBase and more</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa-brands fa-java"></i><h1>Java Programming</h1><p>
+Learn Java programming with hands-on projects and real-world applications.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa fa-code" aria-hidden="true"></i><h1>C++ Programming</h1><p>
+Master C++ with focus on memory management, pointers, and advanced programming techniques.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa-solid fa-database"></i><h1>Data Science</h1><p>
+Complete Data Science course covering statistics, machine learning, and data visualization.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa fa-code" aria-hidden="true"></i><h1>C Programming</h1><p>
+Master C with focus on memory management, pointers, and advanced programming techniques.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa-solid fa-database"></i><h1>SQL Master</h1><p>
+Master SQL with focus on DML,DCL,TCL,DML,DQL,Joins, advanced SQL techniques.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa fa-code" aria-hidden="true"></i><h1>Numpy</h1><p>
+Master Numpy with focus on Array structure and operatiosn, and advanced python programming techniques.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa-brands fa-js"></i><h1>Web Development</h1><p>
+Full-stack web development with HTML, CSS, JavaScript, React, and Node.js.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa fa-code" aria-hidden="true"></i><h1>Pandas</h1><p>
+Master Pandas with focus on Working with Pandas, and advanced programming techniques.</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fa fa-code" aria-hidden="true"></i><h1>Matplotlib</h1><p>
+Master Matplotlib with focus on Visuals, and advanced Pandas programming techniques</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+        <div class="course"><i class="fas fa-chart-bar course-icon"></i><h1>Data Analysis</h1><p>
+Learn data analysis with Python, Pandas, NumPy, and visualization libraries</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
+    </section>
+    <section class="section4">
+        <img src="/image/technical.png" alt="technical">
+        <div class="div1">
+            <div class="div2"><h1 id="c">About</h1><h1 id="d">Nidhi</h1></div>
+            <div class="div3"><p>With over 2+ years of experience in the tech industry, Nidhiis passionate about teaching programming and helping students achieve their career goals.</p><br>
+            <p>He has worked with top tech companies and now dedicates his time to creating high-quality educational content that's accessible to everyone</p></div>
+        </div>
+    </section>
+    </main>
+    <footer>
+        <section class="footer1" style=" margin-left: 10px;">
+            <h2>Nidhi</h2>
+            <p>Providing high-quality, free tech education to help students build successful careers in technology.</p>
+        </section>
+        <section  class="footer2" style=" margin-left: 0px;">
+            <h2>quick links</h2>
+        </section>
+        <section  class="footer3" style=" margin-left: 350px;">
+            <h2>contact info</h2>
+            <p><i class="fas fa-map-marker-alt"></i>Vijay Nagar, Indore, India</p>
+            <p><i class="fas fa-envelope"></i> Nidhidevix@gmail.com</p>
+            <p><i class="fas fa-phone"></i>1234567890</p>
+        </section>
+    </footer>
+</body>
+</html>
