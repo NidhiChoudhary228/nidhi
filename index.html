@@ -51,11 +51,6 @@
             padding: 50px;
             animation: section1-h1 5s ease-in-out 1s 1;
         }
-        @keyframes section1-h1{
-            25%{
-                padding-bottom:80px;
-            }
-        }
         .section1 h1 {
             margin-left: 100px;
             font-size: 70px;
@@ -210,8 +205,124 @@
         }
         @media(max-width: 478px){
             .header{
+                display: flex;
+                width: 348px;
+            }
+            #headerheading{
+                padding-right: 2px;
+                margin: 20px 2px 2px 10px;
+            }
+            .header ul {
+                margin:-4px 350px 2px 0px ;
+                margin-left: 59px;
+            }
+            .header ul li a h1{
+                font-size: 15px;
+                padding: 0px -80px 0px 10px;
+                margin-left: -15px;
+            }
+            .section1{
                 display: block;
-                width: fit-content;
+                width: 348px;
+                height: 400px;
+            }
+            .section1 h1{
+                font-size: x-large;
+                margin-top: 50px;
+                margin-left: 4px;
+                margin-right: 4px;
+                text-align: center;
+            }
+            .section1 div p{
+                font-size: 12px;
+                width: 310px;
+                margin-right: -30px;
+                margin-left: -37px;
+                padding-right: 10px;
+                text-align: center;
+            }
+            .section1 div button{
+                font-size: 12px;
+                margin-left: 62px;
+                width: 120px;
+                height: 35px;
+            }
+            .section3{
+                width: 228px;
+                height: fit-content;
+            }
+            .section3 h1{
+                font-size: 30px;
+                margin-left:-65px;
+            }
+            .section2{
+                width: 348px;
+            }
+            .course{
+                width: 300px;
+                height: 300px;
+                margin-left: 18px;
+            }
+            .course:hover{
+                width:300px;
+                height: 300px;
+                margin-left: 18px;
+            }
+            .course h1{
+                font-size: x-large;
+            }
+            .course p{
+                font-size: 15px;
+            }
+            .section4{
+                display: block;
+                width: 348px;
+                height: 650px;
+            }
+            .section4 img{
+                margin-top: 100px;
+                height: 250px;
+                width: 280px;
+                margin-left: 30px;
+            }
+            .div2 h1{
+                font-size: xx-large;
+                margin-left: 40px;
+            }
+            .div3{
+                width: 330px;
+                margin-top: -20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+                font-size: 12px;
+            }
+            footer{
+                margin-top: -20px;
+                width: 348px;
+                display: block;
+            }
+            .footer1{
+                padding-top: 10px;
+                width: 330px;
+            }
+            .footer1 p{
+                font-size: 15px;
+            }
+            .footer2{
+                padding-top: 4px;
+                padding-left: 10px;
+            }
+            .footer3{
+                width: 100px;
+            }
+            .footer3 h2 {
+                margin-left: -350px;
+                padding-left: 10px;
+            }
+            .footer3 p {
+                margin-left: -350px;
+                padding-left: 10px;
             }
         }
     </style>
@@ -219,7 +330,7 @@
 <body>
     <header class="header">
         <nav>
-            <h1 id="headerheading";padding-left: 15px; font-size: 35px; padding-bottom: 30px; margin-left: 20px;">Nidhi</h1>
+            <h1 id="headerheading";padding-left: 15px; font-size: 35px; padding-bottom: 30px; margin-left: 20px;>Nidhi</h1>
             <ul>
                 <li><a href=""><h1>link</h1></a></li>
                 <li><a href=""><h1>about</h1></a></li>
@@ -263,7 +374,7 @@ Master Matplotlib with focus on Visuals, and advanced Pandas programming techniq
 Learn data analysis with Python, Pandas, NumPy, and visualization libraries</p><p style="padding-left: 2px;">By Nidhi|Free</p><button>Open</button></div>
     </section>
     <section class="section4">
-        <img src="/image/technical.png" alt="technical">
+        <img src="technical.png" alt="technical">
         <div class="div1">
             <div class="div2"><h1 id="c">About</h1><h1 id="d">Nidhi</h1></div>
             <div class="div3"><p>With over 2+ years of experience in the tech industry, Nidhiis passionate about teaching programming and helping students achieve their career goals.</p><br>
